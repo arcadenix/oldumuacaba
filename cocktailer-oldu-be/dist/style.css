@@ -1,0 +1,119 @@
+body {
+  font-family: 'Didot', serif;
+  margin: 23;
+  padding: 0;
+  background-color: #FFA07A;
+}
+
+#container {
+  width: 500px;
+  margin: auto;
+  background-color: #C0C0C0;
+  padding: 70px;
+  border-radius: 56px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+#clock {
+  margin-bottom: 20px;
+}
+
+#clock label {
+  font-size: 24px;
+  margin-right: 5px;
+  color: #black;
+}
+
+#clock input {
+  font-size: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 60px;
+  text-align: center;
+  color: #5D5D5D;
+  background-color: #F2F2F2;
+  outline: none;
+}
+
+#go-button {
+  font-size: 24px;
+  padding: 5px 10px;
+  border-radius: 11px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 140px;
+}
+
+#go-button:hover {
+  background-color: #E85454;
+}
+
+#result-container {
+  position: relative;
+}
+
+#result {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #E85454;
+  text-shadow: 2px 2px 2px black;
+}
+
+#image-container {
+  position: absolute;
+  bottom: -19x;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#image-container img {
+  max-width: 220px;
+  max-height: 250px;
+  border-radius: 50%;
+  border: px solid white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#image-container img:hover {
+  border: 15px solid #E85454;
+}
+
+.empty-space {
+  background-color: #5D5D5D;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+h1 {
+  font-family: 'Didot', serif;
+  font-size: 70px;
+  color: #d4af37;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 22px; 
+  text-shadow: 3px 3px 3px black;
+  }
+.resim-kutusu {
+  position: fixed;
+  top: 0;
+  left: 1;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.resim-kutusu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
